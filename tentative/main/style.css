@@ -1,0 +1,44 @@
+@font-face {
+    font-family: '01フロップデザイン';
+    src: url('01フロップデザイン.eot');
+    src: url('01フロップデザイン.eot?iefix') format('eot'),
+         url('01フロップデザイン.woff') format('woff'),
+         url('01フロップデザイン.ttf') format('truetype'),
+         url('01フロップデザイン.svg#webfontjSpbZQRv') format('svg');
+}
+
+body {
+    font-family:"01フロップデザイン";
+}
+
+a { 
+    text-decoration:none;
+    color: white;
+}
+
+.icons {
+    display: flex;
+    max-width: 100%;
+}
+
+.icon {
+    position: relative;
+    width: 150px;
+}
+.icon p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin: 0;
+    padding:0;
+    font-size: 9pt;
+}
+.icon_image {
+    width:100%;
+}
+.icon_inner {
+    text-align: center;
+}
