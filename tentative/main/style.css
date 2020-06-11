@@ -32,9 +32,9 @@ a {
     -ms-transform: translate(-50%,-50%);
     -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
-    margin: 0;
-    padding:0;
-    font-size: 9pt;
+    font-size: 11pt;
+    line-height: 1.3em;
+    /* padding: 30pt 0pt 0pt 20pt; */
 }
 .icon_image {
     width:100%;

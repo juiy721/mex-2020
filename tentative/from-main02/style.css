@@ -1,0 +1,78 @@
+/* バックグラウンド上固定 */
+body:before {
+    content: "";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index:-1;
+    width: 100%;
+    height: 100vh;
+    background: url(/images/background.png) center no-repeat;
+    background-size: 100%;
+    background-color: #034C8C;
+    background-position: top;
+  } 
+
+@font-face {
+    font-family: '01フロップデザイン';
+    src: url('01フロップデザイン.eot');
+    src: url('01フロップデザイン.eot?iefix') format('eot'),
+         url('01フロップデザイン.woff') format('woff'),
+         url('01フロップデザイン.ttf') format('truetype'),
+         url('01フロップデザイン.svg#webfontjSpbZQRv') format('svg');
+}
+body {
+    font-family:"01フロップデザイン";
+    margin: 50px;
+    letter-spacing: 0.05em;
+}
+
+h1{
+    margin-bottom: 30px;
+    font-size: 20pt;
+}
+
+h2 {
+    margin-bottom: 15px;
+    font-size: 14pt;
+}
+p {
+    font-size: 9pt;
+}
+a{
+    text-decoration:none;
+}
+
+.ex {
+    line-height: 15pt;
+    margin-bottom: 20px;
+}
+
+.main-info {
+    display: flex;
+    margin: 0.5em 0em;
+}
+.info-title {
+
+}
+.info-title-innner {
+    margin: 4pt 0pt;
+    padding: 3pt;
+    background-color: #05DBF2;
+    color: white;
+    font-weight: bold;
+}
+
+.info-content {
+    margin: 0em 0em 0.5em 1.5em;
+}
+.info-content-inner {
+    line-height: 2.2em;
+}
+
+.home{
+    width: 30px;
+    margin-left: 10px;
+}
+
