@@ -13,33 +13,64 @@
 			<img src="images/media_logo.png" class="media">
 			<img src="images/loading.svg" class="loading-svg">
 		</div>
-	</section> -->
+  </section> -->
+  
+  <!-- フォント源ノ角ゴシック -->
+  <script>
+    (function(d) {
+      var config = {
+        kitId: 'bfe4vuf',
+        scriptTimeout: 3000,
+        async: true
+      },
+      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+    })(document);
+  </script>
 </head>
 <body>
-  <h1>武蔵野音楽大学</h1>
-  <h2>武蔵野音楽大学大学院修士課程在学生によるコンサート</h2>
-  <p class="ex">本学主催の演奏会は、新型コロナウイルス感染拡大防止の観点から、
-    <br>下記の通り一部中止とさせていただくことになりました。
-    <br>楽しみにされていた方には大変ご迷惑をおかけいたしますが、
-    <br>何卒ご理解を賜りますようお願い申し上げます。
-  </p>
-  <div class="main-info">
-    <div class="info-title">
-      <p class="info-title-innner">日　時</p>
-      <p class="info-title-innner">会　場</p>
-      <p class="info-title-innner">入場料</p>
-      <p class="info-title-innner">主　催</p>
-      <p class="info-title-innner">問合せ</p>
-    </div>
-    <div class="info-content">
-      <p class="info-content-inner">2020年4月17日（金）　6：30p.m.開演　※中止となりました。
-        <br>武蔵野音楽大学ブラームスホール （江古田キャンパス）
-        <br>無料（全席自由・入場整理券不要）　＊未就学児の入場はご遠慮ください
-        <br>武蔵野音楽大学
-        <br>武蔵野音楽大学演奏部　03-3992-1120
-      </p>
+  <a href="/main/">
+    <p class="title">かっこいいタイトル</p>
+  </a>
+  <div class="main">
+    <h1>武蔵野音楽大学</h1>
+    <h2>武蔵野音楽大学大学院修士課程在学生によるコンサート</h2>
+    <p class="ex">本学主催の演奏会は、新型コロナウイルス感染拡大防止の観点から、下記の通り一部中止とさせていただくことになりました。
+      <br>楽しみにされていた方には大変ご迷惑をおかけいたしますが、何卒ご理解を賜りますようお願い申し上げます。
+    </p>
+    <div class="main-info">
+      <div class="info-title">
+        <p class="info-title-innner">日　時</p>
+        <p class="info-title-innner">会　場</p>
+        <p class="info-title-innner">入場料</p>
+        <p class="info-title-innner">主　催</p>
+        <p class="info-title-innner">リンク</p>
+      </div>
+      <div class="info-content">
+        <p class="info-content-inner">2020年4月17日（金）　6：30p.m.開演　※中止となりました。
+          <br>武蔵野音楽大学ブラームスホール （江古田キャンパス）
+          <br>無料（全席自由・入場整理券不要）　＊未就学児の入場はご遠慮ください
+          <br>武蔵野音楽大学
+        </p>
+        <div class="links">
+          <div class="link-titles">
+            <p class="link-title">Webサイト</p>
+            <p class="link-title">Facebook</p>
+            <p class="link-title">Twitter</p>
+          </div>
+          <div class="link-inners">
+            <a href="http://www.musashino-music.ac.jp/">
+              <p class="link-inner">http://www.musashino-music.ac.jp/</p>
+            </a>
+            <a href="https://ja-jp.facebook.com/musashinoondai/">
+              <p class="link-inner">https://ja-jp.facebook.com/musashinoondai/</p>
+            </a>
+            <a href="https://twitter.com/musaon_sns">
+              <p class="link-inner">https://twitter.com/musaon_sns</p>
+          </a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  <a href="http://www.musashino-music.ac.jp/news/concert/2020-04-01/"><img src="/images/home.png" alt="ホームページへ飛ぶ" class="home"></a>
 </body>
 </html>

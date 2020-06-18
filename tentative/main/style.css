@@ -1,19 +1,46 @@
-@font-face {
-    font-family: '01フロップデザイン';
-    src: url('01フロップデザイン.eot');
-    src: url('01フロップデザイン.eot?iefix') format('eot'),
-         url('01フロップデザイン.woff') format('woff'),
-         url('01フロップデザイン.ttf') format('truetype'),
-         url('01フロップデザイン.svg#webfontjSpbZQRv') format('svg');
-}
+/* @font-face {
+    font-family: '源ノ角ゴシック JP';
+    src: url('源ノ角ゴシック JP.eot');
+    src: url('源ノ角ゴシック JPeot?iefix') format('eot'),
+         url('源ノ角ゴシック JP.woff') format('woff'),
+         url('源ノ角ゴシック JP.ttf') format('truetype'),
+         url('源ノ角ゴシック JP.svg#webfontjSpbZQRv') format('svg');
+} */
 
 body {
-    font-family:"01フロップデザイン";
+    /* font-family:"源ノ角ゴシック JP"; */
+    letter-spacing: 0.05em;
 }
 
 a { 
     text-decoration:none;
     color: white;
+}
+
+.title {
+    font-size: 11pt;
+    color: #F0F0F1;
+    background-color: #5988C9;
+    padding: 15px 30px;
+    margin: 10px 0px 0px 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.up {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    width: 60px;
+    margin:10px;
+}
+
+.main {
+    margin: 10% 10%;
+    z-index: 1;
 }
 
 .icons {
@@ -23,7 +50,10 @@ a {
 
 .icon {
     position: relative;
-    width: 150px;
+    width: 16.666%;
+    background-color: #F0F0F1;
+    padding: 10px 10px;
+    margin: 3px;
 }
 .icon p {
     position: absolute;
@@ -38,7 +68,9 @@ a {
 }
 .icon_image {
     width:100%;
+    
 }
 .icon_inner {
     text-align: center;
+    color: #2B2C34;
 }

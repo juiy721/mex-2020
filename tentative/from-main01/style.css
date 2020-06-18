@@ -1,5 +1,5 @@
 /* バックグラウンド上固定 */
-body:before {
+/* body:before {
     content: "";
     display: block;
     position: fixed;
@@ -21,16 +21,34 @@ body:before {
          url('01フロップデザイン.woff') format('woff'),
          url('01フロップデザイン.ttf') format('truetype'),
          url('01フロップデザイン.svg#webfontjSpbZQRv') format('svg');
-}
+} */
+
 body {
-    font-family:"01フロップデザイン";
-    margin: 50px;
+    color: #2B2C34;
     letter-spacing: 0.05em;
+}
+
+.title {
+    font-size: 11pt;
+    color: #F0F0F1;
+    background-color: #5988C9;
+    padding: 15px 30px;
+    margin: 10px 0px 0px 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.main {
+    /* font-family:"01フロップデザイン"; */
+    margin: 8% 0% 0% 20%;
 }
 
 h1{
     margin-bottom: 30px;
     font-size: 20pt;
+    color: #5988C9;
 }
 
 h2 {
@@ -42,7 +60,7 @@ p {
 }
 
 .ex {
-    line-height: 15pt;
+    line-height: 20pt;
     margin-bottom: 20px;
 }
 
@@ -55,21 +73,28 @@ p {
 }
 .info-title-innner {
     margin: 4pt 0pt;
-    padding: 3pt;
-    background-color: #05DBF2;
-    color: white;
-    font-weight: bold;
+    padding: 2pt 4pt;
+    background-color: #F0F0F1;
 }
 
 .info-content {
     margin: 0em 0em 0.5em 1.5em;
 }
+
 .info-content-inner {
-    line-height: 2.2em;
+    line-height: 29px;
 }
 
-.home{
-    width: 30px;
-    margin-left: 10px;
+.links {
+    display: flex;
 }
 
+.link-title {
+    font-weight: bold;
+    color: #8e8e8e;
+    margin: 7px 7px 0px 0px;
+}
+
+.link-inner {
+    margin: 7px 7px 0px 15px;
+}
