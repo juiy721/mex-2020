@@ -6,26 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" type="text/css" href="/common/ress.min.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
   <!-- <link rel="shortcut icon" href="images/favicon.ico"> -->
-  <!-- ローディング -->
-	<!-- <section id="loading" class="loading">
-		<div class="loading_img">
-			<img src="images/media_logo.png" class="media">
-			<img src="images/loading.svg" class="loading-svg">
-		</div>
-  </section> -->
-  
-  <!-- フォント源ノ角ゴシック -->
-  <script>
-    (function(d) {
-      var config = {
-        kitId: 'bfe4vuf',
-        scriptTimeout: 3000,
-        async: true
-      },
-      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-    })(document);
-  </script>
 </head>
 <body>
   <a href="/main/">
@@ -43,7 +27,10 @@
         <p class="info-title-innner">会　場</p>
         <p class="info-title-innner">入場料</p>
         <p class="info-title-innner">主　催</p>
-        <p class="info-title-innner">リンク</p>
+        <div class="info-title-innner">
+          <p>リンク</p>
+          <img src="/images/_blank.svg" class="_blank">
+        </div>
       </div>
       <div class="info-content">
         <p class="info-content-inner">2020年4月17日（金）　6：30p.m.開演　※中止となりました。
@@ -58,19 +45,25 @@
             <p class="link-title">Twitter</p>
           </div>
           <div class="link-inners">
-            <a href="http://www.musashino-music.ac.jp/">
-              <p class="link-inner">http://www.musashino-music.ac.jp/</p>
+            <a href="http://www.musashino-music.ac.jp/" class="link-inner" target=”_blank”>
+              <p class="link-text">http://www.musashino-music.ac.jp/</p>
             </a>
-            <a href="https://ja-jp.facebook.com/musashinoondai/">
-              <p class="link-inner">https://ja-jp.facebook.com/musashinoondai/</p>
+            <a href="https://ja-jp.facebook.com/musashinoondai/" class="link-inner" target=”_blank”>
+              <p class="link-text">https://ja-jp.facebook.com/musashinoondai/</p>
             </a>
-            <a href="https://twitter.com/musaon_sns">
-              <p class="link-inner">https://twitter.com/musaon_sns</p>
+            <a href="https://twitter.com/musaon_sns" class="link-inner" target=”_blank”>
+              <p class="link-text">https://twitter.com/musaon_sns</p>
           </a>
           </div>
         </div>
       </div>
     </div>
   </div>
+  <!-- ローディング -->
+	<section id="loading" class="loading">
+		<div class="loading_img">
+			<img src="/images/loading.svg" class="loading-svg">
+		</div>
+  </section>
 </body>
 </html>
