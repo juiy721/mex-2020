@@ -36,10 +36,8 @@ a {
     z-index: 2;
     width: 60px;
     margin:10px;
-    opacity: 0.1;
-	transform: translate(0, 70px);
-	transition: all 800ms;
 }
+
 
 .main {
     margin: 10% 10%;
@@ -57,7 +55,13 @@ a {
     background-color: #F0F0F1;
     padding: 10px 10px;
     margin: 3px;
+    transition: background-color 300ms;
 }
+.icon:hover {
+    background-color: #DEDEF0;
+    transition: background-color 200ms;
+}
+
 .icon p {
     position: absolute;
     top: 50%;
