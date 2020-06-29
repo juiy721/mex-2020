@@ -38,8 +38,46 @@ body {
     top: 0;
     left: 0;
     z-index: 2;
+    border: 2px solid #5988C9;
+    display: inline-block;
+    text-decoration: none;
+    outline: none;
 }
 .title_text:hover {
+    background-color: #fff;
+    border-color: #5988C9;
+    color: #5988C9;
+  }
+.title_text::before,
+.title_text::after {
+position: absolute;
+z-index: -1;
+display: block;
+content: '';
+top: 0;
+width: 50%;
+height: 100%;
+background-color: #5988C9;
+}
+.title_text::before {
+right: 0;
+}
+.title_text::after {
+left: 0;
+}
+.title_text:hover::before,
+.title_text:hover::after {
+width: 0;
+background-color: #5988C9;
+}
+.button,
+.button::before,
+.button::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .3s;
+  transition: all .3s;
 }
 
 .main {
