@@ -6,14 +6,19 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" type="text/css" href="/common/ress.min.css">
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="/common/jquery-3.5.1.min.js"></script>
   <script type="text/javascript" src="main.js"></script>
   <!-- <link rel="shortcut icon" href="images/favicon.ico"> -->
+  <!-- ローディング -->
+	<section id="loading" class="loading">
+		<div class="loading_img">
+			<img src="/images/loading.svg" class="loading-svg">
+		</div>
+  </section>
 </head>
 <body>
   <div class="title">
-    <a href="./index.html">
+    <a href="/">
       <p class="title_text">かっこいいタイトル</p>
     </a>
   </div>
@@ -31,7 +36,7 @@
         <p class="info-title-innner">主　催</p>
         <div class="info-title-innner">
           <p>リンク</p>
-          <img src="./images/_blank.svg" class="_blank">
+          <img src="/images/_blank.svg" class="_blank">
         </div>
       </div>
       <div class="info-content">
@@ -61,11 +66,5 @@
       </div>
     </div>
   </div>
-  <!-- ローディング -->
-	<section id="loading" class="loading">
-		<div class="loading_img">
-			<img src="./images/loading.svg" class="loading-svg">
-		</div>
-  </section>
 </body>
 </html>

@@ -1,28 +1,3 @@
-/* バックグラウンド上固定 */
-/* body:before {
-    content: "";
-    display: block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index:-1;
-    width: 100%;
-    height: 100vh;
-    background: url(/images/background.png) center no-repeat;
-    background-size: 100%;
-    background-color: #034C8C;
-    background-position: top;
-  } 
-
-@font-face {
-    font-family: '01フロップデザイン';
-    src: url('01フロップデザイン.eot');
-    src: url('01フロップデザイン.eot?iefix') format('eot'),
-         url('01フロップデザイン.woff') format('woff'),
-         url('01フロップデザイン.ttf') format('truetype'),
-         url('01フロップデザイン.svg#webfontjSpbZQRv') format('svg');
-} */
-
 /* ローディング */
 .loading {
 	position: fixed;
