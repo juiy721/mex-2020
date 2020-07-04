@@ -70,9 +70,9 @@ left: 0;
 width: 0;
 background-color: #5988C9;
 }
-.button,
-.button::before,
-.button::after {
+.title_text,
+.title_text::before,
+.title_text::after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -82,7 +82,7 @@ background-color: #5988C9;
 
 .main {
     /* font-family:"01フロップデザイン"; */
-    margin: 8% 0% 0% 20%;
+    margin: 13% 0% 0% 20%;
 }
 
 h1{
