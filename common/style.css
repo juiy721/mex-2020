@@ -22,12 +22,14 @@
 	width: 38px;
 	padding-left: 13px;
 }
+/* ローディング終了 */
 
 body {
     color: #2B2C34;
     letter-spacing: 0.05em;
 }
 
+/* タイトルをホバーするとエフェクトが出る */
 .title_text {
     font-size: 11pt;
     color: #F0F0F1;
@@ -81,7 +83,6 @@ background-color: #5988C9;
 }
 
 .main {
-    /* font-family:"01フロップデザイン"; */
     margin: 13% 0% 0% 20%;
 }
 
@@ -155,3 +156,8 @@ a.link-inner:hover {
     text-decoration: underline;
     color: #0064EF;
   }
+/* リンクが存在しない */
+.link-none {
+    margin: 7px 7px 0px 15px;
+    color: #8e8e8e;
+}
