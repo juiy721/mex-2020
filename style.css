@@ -55,18 +55,13 @@ a {
 
 
 .main {
-    margin: 10% 10%;
+    margin: 100px 10%;
     z-index: 1;
 }
 
-.icons {
-    display: flex;
-    max-width: 100%;
-}
-
 .icon {
-    position: relative;
-    width: 16.666%;
+    /* position: relative; */
+    width: 100%;
     background-color: #F0F0F1;
     padding: 10px 10px;
     margin: 3px;
@@ -78,21 +73,27 @@ a {
 }
 
 .icon p {
-    position: absolute;
+    /* position: absolute;
     top: 50%;
     left: 50%;
     -ms-transform: translate(-50%,-50%);
     -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
     font-size: 11pt;
-    line-height: 1.3em;
+    line-height: 1.3em; */
     /* padding: 30pt 0pt 0pt 20pt; */
+
+    margin: 9px 0px 9px 15px;
 }
 .icon_image {
-    width:100%;
+    width:40px;
+    height: 40px;
     
 }
 .icon_inner {
-    text-align: center;
+    /* text-align: center; */
     color: #2B2C34;
+}
+.icon a {
+    display: flex;
 }
