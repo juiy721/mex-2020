@@ -87,15 +87,16 @@ background-color: #5988C9;
 }
 
 h1{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-size: 20pt;
     color: #5988C9;
 }
 
 h2 {
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     font-size: 9pt;
-    font-weight: normal;
+    line-height: 20pt;
+    /* font-weight: normal; */
 }
 p {
     font-size: 9pt;
@@ -103,7 +104,7 @@ p {
 
 .ex {
     line-height: 20pt;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .main-info {
