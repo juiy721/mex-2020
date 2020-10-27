@@ -97,3 +97,40 @@ a {
 .icon a {
     display: flex;
 }
+
+
+/* !!!レスポンシブ!!! */
+
+/*デバイスの横幅が481以上768以下の場合*/
+/* 主にiPad向け */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+     
+    body {
+        font-size: 8pt;
+    }
+    .title {
+        font-size: 11pt;
+    }
+ 
+} 
+ 
+/* デバイスの横幅が480px以下の場合 */
+/* 主にスマホ向け */
+@media only screen and (max-width: 480px) {
+     
+    html {
+        font-size: 5pt;
+    }
+    .title {
+        font-size: 8pt;
+        padding: 12px 20px;
+    }
+    .up {
+        width: 40px;
+    }
+    .icon_image {
+        width:35px;
+        height: 35px;
+    }
+ 
+} 
