@@ -163,3 +163,52 @@ a.link-inner:hover {
     margin: 7px 7px 0px 15px;
     color: #8e8e8e;
 }
+
+
+
+/* !!!レスポンシブ!!! */
+
+/*デバイスの横幅が481以上768以下の場合*/
+/* 主にiPad向け */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+     
+    p {
+        font-size: 8pt;
+    }
+    .title {
+        font-size: 11pt;
+    }
+ 
+} 
+ 
+/* デバイスの横幅が480px以下の場合 */
+/* 主にスマホ向け */
+@media only screen and (max-width: 480px) {
+
+    body {
+        line-height: normal;
+    }
+     
+    p {
+        font-size: 5pt;
+    }
+    .title_text {
+        font-size: 8pt;
+        padding: 12px 20px;
+    }
+    .up {
+        width: 40px;
+    }
+    .icon_image {
+        width:35px;
+        height: 35px;
+    }
+    h1 {
+        font-size: 15pt;
+        margin: 90px 0px 20px 0px;
+    }
+    h2 {
+        margin-bottom: 20px;
+    }
+ 
+} 
