@@ -136,13 +136,13 @@ p {
 .info-content-inner {
     line-height: 29px;
     margin-left: 10px;
-    width: 92%;
+    width: 90%;
 }
 
 /* リンク */
 .links {
     /* display: flex; */
-    width: 92%;
+    width: 90%;
 }
 
 /* リンクのタイトル */
@@ -189,15 +189,15 @@ a.link-inner:hover {
         font-size: 11pt;
     }
     .links {
-        width: 91%;
+        width: 90%;
     }
     .info-content-inner {
         margin: 6pt 4pt 6pt 4pt;
         line-height: 2.5em;
-        width: 91%;
+        width: 90%;
     }
     .info-title-innner {
-        width: 9%;
+        width: 50px;
       }
  
 } 
