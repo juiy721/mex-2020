@@ -120,6 +120,7 @@ p {
     margin: 4pt 0pt;
     padding: 2pt 4pt;
     background-color: #F0F0F1;
+    width: 50px;
 }
 ._blank {
     width: 10px;
@@ -135,11 +136,13 @@ p {
 .info-content-inner {
     line-height: 29px;
     margin-left: 10px;
+    /* width: 92%; */
 }
 
 /* リンク */
 .links {
     /* display: flex; */
+    width: 92%;
 }
 
 /* リンクのタイトル */
@@ -185,6 +188,17 @@ a.link-inner:hover {
     .title {
         font-size: 11pt;
     }
+    .links {
+        width: 91%;
+    }
+    .info-content-inner {
+        margin: 6pt 4pt 6pt 4pt;
+        line-height: 2.5em;
+        width: 91%;
+    }
+    .info-title-innner {
+        width: 9%;
+      }
  
 } 
  
@@ -216,6 +230,9 @@ a.link-inner:hover {
     }
     h2 {
         margin-bottom: 20px;
+    }
+    .links {
+        width: 80%;
     }
     .info-content-inner {
         margin: 6pt 4pt 6pt 4pt;
