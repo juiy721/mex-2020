@@ -27,6 +27,7 @@
 body {
     color: #2B2C34;
     letter-spacing: 0.05em;
+    font-family: "Noto Sans JP";
 }
 
 /* タイトルをホバーするとエフェクトが出る */
@@ -49,37 +50,37 @@ body {
     background-color: #fff;
     border-color: #5988C9;
     color: #5988C9;
-  }
+}
 .title_text::before,
 .title_text::after {
-position: absolute;
-z-index: -1;
-display: block;
-content: '';
-top: 0;
-width: 50%;
-height: 100%;
-background-color: #5988C9;
+    position: absolute;
+    z-index: -1;
+    display: block;
+    content: '';
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #5988C9;
 }
 .title_text::before {
-right: 0;
+    right: 0;
 }
 .title_text::after {
-left: 0;
+    left: 0;
 }
 .title_text:hover::before,
 .title_text:hover::after {
-width: 0;
-background-color: #5988C9;
+    width: 0;
+    background-color: #5988C9;
 }
 .title_text,
 .title_text::before,
 .title_text::after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transition: all .3s;
-  transition: all .3s;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all .3s;
+    transition: all .3s;
 }
 
 .main {
