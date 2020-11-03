@@ -74,22 +74,11 @@ a {
 }
 
 .icon p {
-    /* position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
-    font-size: 11pt;
-    line-height: 1.3em; */
-    /* padding: 30pt 0pt 0pt 20pt; */
-
     margin: 9px 0px 9px 15px;
 }
 .icon_image {
     width:40px;
-    height: 40px;
-    
+    height: 40px;  
 }
 .icon_inner {
     /* text-align: center; */
@@ -130,8 +119,13 @@ a {
         width: 55px;
     }
     .icon_image {
-        width: 35px;
-        height: 35px;
+        width: 25px;
+        height: 25px;
+        margin: 5px 0px 5px 5px;
+    }
+    .icon {
+        padding: 5px 5px;
+        margin-bottom: 10px;
     }
  
 } 
