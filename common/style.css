@@ -120,6 +120,7 @@ p {
     margin: 4pt 0pt;
     padding: 2pt 4pt;
     background-color: #F0F0F1;
+    width: 20%;
 }
 ._blank {
     width: 10px;
@@ -135,6 +136,7 @@ p {
 .info-content-inner {
     line-height: 29px;
     margin-left: 10px;
+    width: 80%;
 }
 
 /* リンク */
